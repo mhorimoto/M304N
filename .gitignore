@@ -1,0 +1,52 @@
+# ===== KiCad ===
+M304N-backups/
+
+# ===== FreeCad =====
+*.FCBak
+
+# ===== e² studio / Eclipse CDT =====
+
+# ワークスペースメタデータ（プロジェクト個別ではなくワークスペース直下に生成される）
+.metadata/
+
+# ビルド成果物（ビルド構成名はプロジェクトにより異なる場合あり）
+Debug/
+Release/
+HardwareDebug/
+HardwareBuild/
+RAM/
+ROM/
+build/
+compile_commands.json
+*.o.json
+
+# オブジェクト・実行ファイル・中間生成物
+*.o
+*.obj
+*.elf
+*.map
+*.hex
+*.mot
+*.srec
+*.a
+*.lib
+*.d
+*.lst
+*.rpbin
+*.rtld
+
+# CDTのインデックス・ビルド関連（プロジェクト内に生成される場合）
+.settings/
+.autotools
+.cproject.bak
+
+# ログ・一時ファイル
+*.log
+*~
+*.bak
+*.tmp
+
+# OS付随ファイル
+.DS_Store
+Thumbs.db
+.history/
