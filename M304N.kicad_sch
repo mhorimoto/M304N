@@ -3361,16 +3361,62 @@
 			)
 		)
 		(pin "2"
-			(uuid "c6269257-aa28-4624-bc47-f36821dc76cf")
+			(uuid "c6269257-aa28-4624-bc47-f36821dc76d0")
 		)
 		(pin "1"
-			(uuid "93878cb8-b0d3-4dfa-bbac-2348da15f11e")
+			(uuid "93878cb8-b0d3-4dfa-bbac-2348da15f11f")
 		)
 		(instances
 			(project "M304N"
 				(path "/c41feddf-9b57-4156-a07a-047a9379ecf1"
 					(reference "SW1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 142.24)
+		(size 19.685 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "36ca4142-f324-478f-9bb8-a490d7ec5a80")
+		(property "Sheetname" "WINDOW MOTOR UNIT"
+			(at 179.07 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "window_motor_unit.kicad_sch"
+			(at 179.07 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M304N"
+				(path "/c41feddf-9b57-4156-a07a-047a9379ecf1"
+					(page "4")
 				)
 			)
 		)
@@ -3473,7 +3519,7 @@
 	)
 	(sheet
 		(at 219.456 126.238)
-		(size 42.418 22.606)
+		(size 28.194 22.606)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3507,6 +3553,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 219.456 132.08 180)
+			(uuid "3eafe61a-103e-48aa-954a-ebd0247f20c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 219.456 134.62 180)
+			(uuid "ac60a560-d6c0-40d5-89b4-5bea7e0e6039")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V" input
+			(at 219.456 137.16 180)
+			(uuid "5cb87e7e-bc3e-4677-bbef-198332b62277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V" input
+			(at 219.456 139.7 180)
+			(uuid "c00e36b0-0059-4702-a218-4b1826febe24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 219.456 145.415 180)
+			(uuid "36f6d63f-414f-4419-8121-666e26f7cdb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -429,7 +429,7 @@
         "uuid": "c41feddf-9b57-4156-a07a-047a9379ecf1"
       }
     ],
-    "used_designators": "SW1-3,LCD1,U1-2,BT1,#PWR1-2,J1-2,IC1",
+    "used_designators": "C1-2,D1-2,M1-2,SW1-3,R1-2,LCD1,U1-2,BT1,#PWR1-2,J1-2,K1-3,IC1",
     "variants": []
   },
   "sheets": [
@@ -444,6 +444,10 @@
     [
       "7d30f555-a09d-44a0-a274-0fd7e93adbcd",
       "DISPLAY UNIT"
+    ],
+    [
+      "36ca4142-f324-478f-9bb8-a490d7ec5a80",
+      "WINDOW MOTOR UNIT"
     ]
   ],
   "text_variables": {},

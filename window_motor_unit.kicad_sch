@@ -1,0 +1,2052 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8eaf5e61-9113-4964-8803-fb0f2ecae6f1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1.5KExxCA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.5KExxCA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1500W bidirectional TVS diode, DO-201AE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor TRANSZORB®"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D?DO?201AE*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1.5KExxCA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1.5KExxCA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Motor_DC_ALT"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_DC_ALT"
+				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Motor, alternative symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Motor_DC_ALT_0_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 2.032) (xy 1.27 2.032) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -4.318) (xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.524)
+					(radius 2.9718)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_ALT_0_1"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_ALT_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Relay:JQC-3FF-005-1Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "JQC-3FF-005-1Z"
+				(at 11.43 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPDT_Hongfa_JQC-3FF_0XX-1Z"
+				(at 11.43 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/htmldatasheets/production/2071105/0/0/1/JQC-3FF.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Subminiature High Power SPDT Relay, 5V Coil nom. 0.36W, 10A switching current, max 10A@277VAC/28VDC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Hongmei"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Relay*SPDT*Hongfa*JQC*3FF*0XX*1Z*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JQC-3FF-005-1Z_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JQC-3FF-005-1Z_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JQC-3FF-005-1Z_1_1"
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "M304 RELAY SIDE"
+		(exclude_from_sim no)
+		(at 133.985 22.86 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0f70fcba-aa3a-4787-824d-9376a919527e")
+	)
+	(text "MOTOR SIDE"
+		(exclude_from_sim no)
+		(at 171.45 22.86 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4f027d10-e9bf-44d1-bb02-2b41554e64e5")
+	)
+	(junction
+		(at 180.975 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d0a52c4-1e18-4aee-b45b-c14b03a3c657")
+	)
+	(junction
+		(at 100.33 33.655)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d3edfb4-bdf0-4ef8-aebe-e1b35053a8f6")
+	)
+	(junction
+		(at 174.625 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9754c4a5-c9da-4396-8953-8da15e4437b5")
+	)
+	(junction
+		(at 103.505 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e0a396-7400-435f-91ee-7bb6a99ef8f1")
+	)
+	(junction
+		(at 97.155 136.525)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fca3b3af-8102-40e0-91e9-86a6f35f598b")
+	)
+	(junction
+		(at 180.975 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe4ca02a-6f1a-4f2b-a562-2476d0d52005")
+	)
+	(junction
+		(at 174.625 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe5e299f-3c82-46b8-a4f6-ab6f31054d93")
+	)
+	(wire
+		(pts
+			(xy 113.665 72.39) (xy 113.665 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015102b0-26c8-4fc6-ad02-5c4025cb7844")
+	)
+	(wire
+		(pts
+			(xy 121.285 120.015) (xy 103.505 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053b8d93-1930-4eea-9fd2-e27f778532d8")
+	)
+	(polyline
+		(pts
+			(xy 147.32 163.195) (xy 147.955 163.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0946b8-8703-45dc-9683-e786f4f3aa3b")
+	)
+	(wire
+		(pts
+			(xy 84.455 33.655) (xy 100.33 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1150b3dd-909b-483b-aff5-deff9f364027")
+	)
+	(wire
+		(pts
+			(xy 84.455 53.975) (xy 113.665 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19661bae-3ff8-4a60-a3f7-4e63a1343142")
+	)
+	(wire
+		(pts
+			(xy 100.33 33.655) (xy 126.365 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd7ede9-85dc-4b66-957a-f23ba0d46f13")
+	)
+	(wire
+		(pts
+			(xy 121.285 57.15) (xy 121.285 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f910ee6-83c9-4862-9d3a-6b444c8dd254")
+	)
+	(wire
+		(pts
+			(xy 180.975 73.66) (xy 188.595 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217328a6-8249-4bdc-9324-0c4957bd9ba2")
+	)
+	(wire
+		(pts
+			(xy 113.665 74.295) (xy 97.155 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269fb6a0-d167-45c9-b013-00a4e5b7e433")
+	)
+	(wire
+		(pts
+			(xy 188.595 91.44) (xy 188.595 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3b67ad-7c20-41b8-8262-7af26d528fd1")
+	)
+	(wire
+		(pts
+			(xy 113.665 136.525) (xy 97.155 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3582d1e9-db89-40c9-ad49-17f551f57c5c")
+	)
+	(wire
+		(pts
+			(xy 180.975 73.66) (xy 180.975 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3896596a-1988-4b40-ac7c-82885f0e2de6")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.825) (xy 126.365 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44075ccc-04d3-441b-a761-62224f8f0f49")
+	)
+	(wire
+		(pts
+			(xy 126.365 33.655) (xy 126.365 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e8cfd8-cd69-43d6-9057-c81809e221aa")
+	)
+	(wire
+		(pts
+			(xy 121.285 109.855) (xy 121.285 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bec2aeb-2cf9-4ef8-86cc-3aa3aaea42be")
+	)
+	(wire
+		(pts
+			(xy 113.665 53.975) (xy 113.665 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfcc382-c3f5-4d53-9668-d4ca6e5680d5")
+	)
+	(wire
+		(pts
+			(xy 123.825 73.66) (xy 174.625 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508e916d-7031-4c26-bf44-fb799111df99")
+	)
+	(wire
+		(pts
+			(xy 97.155 74.295) (xy 97.155 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521bf3d9-f186-4182-9223-06872d378e6c")
+	)
+	(wire
+		(pts
+			(xy 174.625 73.66) (xy 174.625 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5243af28-e160-463e-aba7-45e0b967d230")
+	)
+	(wire
+		(pts
+			(xy 126.365 123.825) (xy 126.365 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52de4481-5712-4f5f-9f5b-566fdfc44c61")
+	)
+	(wire
+		(pts
+			(xy 180.975 86.36) (xy 180.975 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6483c9b5-47b6-4825-8f16-4951951c4812")
+	)
+	(wire
+		(pts
+			(xy 121.285 36.83) (xy 103.505 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672c4c66-2d81-4e35-8dcc-a9c3cfba1280")
+	)
+	(wire
+		(pts
+			(xy 180.975 91.44) (xy 188.595 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1f9863-6b64-4358-bea5-be7d27bd9e6b")
+	)
+	(wire
+		(pts
+			(xy 113.665 94.615) (xy 113.665 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc3111f-71a7-45d0-bdff-246d9b74060c")
+	)
+	(wire
+		(pts
+			(xy 103.505 36.83) (xy 84.455 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb49a43-7b37-4662-b79c-9433395e8abc")
+	)
+	(wire
+		(pts
+			(xy 174.625 88.9) (xy 174.625 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71259539-74a1-42fd-8333-1abdfc7f2d7d")
+	)
+	(wire
+		(pts
+			(xy 174.625 73.66) (xy 180.975 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712aeb8d-fe22-4407-b178-3c976e8055a2")
+	)
+	(wire
+		(pts
+			(xy 123.825 91.44) (xy 174.625 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7492fedc-534c-46d8-9940-0d0f1e227725")
+	)
+	(wire
+		(pts
+			(xy 97.155 136.525) (xy 84.455 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe04bfd-fa08-4742-b0a4-27e21ffac8c5")
+	)
+	(polyline
+		(pts
+			(xy 154.305 20.955) (xy 154.305 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8130e33d-6309-4f48-b4dc-ba9978b11a2d")
+	)
+	(wire
+		(pts
+			(xy 84.455 92.075) (xy 113.665 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8204e5af-a0bd-4117-8609-291ae2912157")
+	)
+	(wire
+		(pts
+			(xy 123.825 73.66) (xy 123.825 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b626ad7c-5598-478c-94b9-b8b03fd5985f")
+	)
+	(wire
+		(pts
+			(xy 100.33 33.655) (xy 100.33 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf955cdc-7a55-4ca0-ab78-e4a92475d1ae")
+	)
+	(wire
+		(pts
+			(xy 103.505 120.015) (xy 103.505 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15ac998-1be5-4b45-ad64-156833e85e34")
+	)
+	(wire
+		(pts
+			(xy 123.825 91.44) (xy 123.825 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda26546-c755-4228-a6b8-81fb21a37b4a")
+	)
+	(wire
+		(pts
+			(xy 188.595 73.66) (xy 188.595 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77d5555-2803-4ecb-8ab0-6f74f33ae3f0")
+	)
+	(wire
+		(pts
+			(xy 174.625 91.44) (xy 180.975 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de18ab56-bc7a-473f-8262-267cd88b65ce")
+	)
+	(wire
+		(pts
+			(xy 113.665 109.855) (xy 113.665 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e446ed00-de24-40be-a684-2ad62fe98826")
+	)
+	(wire
+		(pts
+			(xy 174.625 80.645) (xy 174.625 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb2f507-9fef-4f73-a286-31fbafe93631")
+	)
+	(hierarchical_label "RLY_A"
+		(shape input)
+		(at 84.455 53.975 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04f3b01f-91c9-4272-a78d-6b3faafc39f7")
+	)
+	(hierarchical_label "RLY_B"
+		(shape input)
+		(at 84.455 92.075 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c116cc5-1ccf-4949-9370-816a4bf09880")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 84.455 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87dff444-70ff-4bfa-b6b4-9ac0ddebabaf")
+	)
+	(hierarchical_label "RLY_GND"
+		(shape input)
+		(at 84.455 136.525 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a609667a-08ea-48ca-a64a-3d830ec3f653")
+	)
+	(hierarchical_label "MOTOR_DC24V"
+		(shape input)
+		(at 84.455 33.655 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e77fc64d-91e2-4bf2-9615-633694e99db1")
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC_ALT")
+		(at 188.595 80.645 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a1bc4f-b3db-42ee-a169-b1283d0faa11")
+		(property "Reference" "M1"
+			(at 192.3288 80.7028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DC24V/2A"
+			(at 192.3288 83.1271 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.595 82.931 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 82.931 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor, alternative symbol"
+			(at 188.595 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d7d156d-3bbc-4221-af75-277779ec1ad5")
+		)
+		(pin "2"
+			(uuid "4562c915-0189-4537-b454-8903ffa06fe4")
+		)
+		(instances
+			(project "M304N"
+				(path "/c41feddf-9b57-4156-a07a-047a9379ecf1/36ca4142-f324-478f-9bb8-a490d7ec5a80"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 174.625 86.36 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22301006-2e2b-499d-ab5a-1a796b2f5038")
+		(property "Reference" "R1"
+			(at 172.974 85.1478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24Ω/2W"
+			(at 172.974 87.5721 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-RSF_DATASHEET.pdf"
+			(at 174.625 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RSF200JB-73-24R"
+			(at 174.625 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a2683a2d-7f0f-4f99-9da3-5c59f4f11d39")
+		)
+		(pin "1"
+			(uuid "e4591672-6807-48cf-bbb2-50fe077623c1")
+		)
+		(instances
+			(project "M304N"
+				(path "/c41feddf-9b57-4156-a07a-047a9379ecf1/36ca4142-f324-478f-9bb8-a490d7ec5a80"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1.5KExxCA")
+		(at 180.975 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bdee918b-3713-412d-a363-0370a5d9c672")
+		(property "Reference" "D1"
+			(at 179.705 67.945 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5KE30CA"
+			(at 179.705 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+			(at 175.895 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
+			(at 180.975 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1500W bidirectional TVS diode, DO-201AE"
+			(at 180.975 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "425e0e35-4ccf-4c9b-b24b-e3c2dba5ff97")
+		)
+		(pin "2"
+			(uuid "b28ae1ad-7173-4eb6-a65e-5593e2cb4967")
+		)
+		(instances
+			(project "M304N"
+				(path "/c41feddf-9b57-4156-a07a-047a9379ecf1/36ca4142-f324-478f-9bb8-a490d7ec5a80"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:JQC-3FF-005-1Z")
+		(at 118.745 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f11dcde4-23e7-4fff-9e3d-933e04afceda")
+		(property "Reference" "K1"
+			(at 129.667 63.5578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JQC-3FF-005-1Z"
+			(at 129.667 65.9821 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Hongfa_JQC-3FF_0XX-1Z"
+			(at 130.175 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/htmldatasheets/production/2071105/0/0/1/JQC-3FF.pdf"
+			(at 118.745 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Subminiature High Power SPDT Relay, 5V Coil nom. 0.36W, 10A switching current, max 10A@277VAC/28VDC"
+			(at 118.745 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A1"
+			(uuid "c6bde4c8-adb4-4bee-b975-8fb28144fcb4")
+		)
+		(pin "14"
+			(uuid "dabae459-6472-41d3-bccf-a45e4dba9132")
+		)
+		(pin "12"
+			(uuid "9f1cbef4-214f-43d2-8cc0-edaa04eee211")
+		)
+		(pin "11"
+			(uuid "02d8052d-9307-4c21-8de5-7eab61a51d28")
+		)
+		(pin "A2"
+			(uuid "116b8f9b-822f-4293-b833-0cbfc1f3a015")
+		)
+		(instances
+			(project "M304N"
+				(path "/c41feddf-9b57-4156-a07a-047a9379ecf1/36ca4142-f324-478f-9bb8-a490d7ec5a80"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:JQC-3FF-005-1Z")
+		(at 118.745 102.235 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7773876-5a11-4414-a0a1-3530c0589157")
+		(property "Reference" "K2"
+			(at 129.667 103.4472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JQC-3FF-005-1Z"
+			(at 129.667 101.0229 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Hongfa_JQC-3FF_0XX-1Z"
+			(at 130.175 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/htmldatasheets/production/2071105/0/0/1/JQC-3FF.pdf"
+			(at 118.745 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Subminiature High Power SPDT Relay, 5V Coil nom. 0.36W, 10A switching current, max 10A@277VAC/28VDC"
+			(at 118.745 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A1"
+			(uuid "c6bde4c8-adb4-4bee-b975-8fb28144fcb4")
+		)
+		(pin "14"
+			(uuid "dabae459-6472-41d3-bccf-a45e4dba9132")
+		)
+		(pin "12"
+			(uuid "9f1cbef4-214f-43d2-8cc0-edaa04eee211")
+		)
+		(pin "11"
+			(uuid "02d8052d-9307-4c21-8de5-7eab61a51d28")
+		)
+		(pin "A2"
+			(uuid "116b8f9b-822f-4293-b833-0cbfc1f3a015")
+		)
+		(instances
+			(project "M304N"
+				(path "/c41feddf-9b57-4156-a07a-047a9379ecf1/36ca4142-f324-478f-9bb8-a490d7ec5a80"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 174.625 78.105 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd840fd7-a477-438f-9697-5a0e4e571ea4")
+		(property "Reference" "C1"
+			(at 172.3009 76.8991 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47uF/200V"
+			(at 172.3009 79.3234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/SL-Series.pdf"
+			(at 174.625 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SL502C474KAB"
+			(at 174.625 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a756f30-3039-48fc-a1fb-4f0e7a43e8b2")
+		)
+		(pin "2"
+			(uuid "ec38fa1f-6050-4180-a36d-c6855bf87302")
+		)
+		(instances
+			(project "M304N"
+				(path "/c41feddf-9b57-4156-a07a-047a9379ecf1/36ca4142-f324-478f-9bb8-a490d7ec5a80"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
